@@ -1,5 +1,8 @@
 package domain
-import "demo/src/Clients/domain/entities"
+import (
+    "demo/src/Clients/domain/entities"
+
+)
 
 type ClientRepository interface {
     Create(client *entities.Client) error
